@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: var(--text-color);
+    scroll-behavior: smooth;
+    width: 100%;
+
+}
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+
+}
+
+logo {
+    color: var(--text-color);
+    font-size: 2.6rem;
+    font-weight: 700;
+
+}
+
+logo:hover {
+    color: var(--main-color);
+}
+
+a:hover {
+    color: var(--main-color);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--second-bg-color);
+    position: fixed;
+    padding: 6px;
+    width: 100%;
+    height: 70px;
+
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color);
+
+
+}
+
+a {
+    margin: 45px;
+    font-size: 1.3rem;
+
+
+
+
+}
+
+span {
+    color: var(--main-color);
+}
+
+img {
+
+    box-shadow: 25px 25px 15px var(--main-color);
+    border: 4px solid var(--main-color);
+    width: 30rem;
+    height: 25rem;
+    margin: 80px;
+    transition: 0.5s ease;
+
+}
+
+.event-title {
+    margin-top: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.event {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border: var(--main-color);
+
+}
+
+.items {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 6px;
+}
+
+p {
+    width: 30rem;
+
+}
+
+footer {
+    height: 15rem;
+    width: 100%;
+    background: var(--second-bg-color);
+
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.footer-items {
+    text-align: center;
+    width: 50%;
+
+}
+
+ul li a {
+    font-size: 15px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background: var(--bg-color);
+
+}
+
+.items a {
+    font-size: 1rem;
+}
